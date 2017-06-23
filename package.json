@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "node dist/index.js",
-    "build": "babel lib --out-dir dist",
+    "build": "./node_modules/babel-cli/bin/babel.js lib --out-dir dist",
     "postinstall": "npm run build",
     "prepublish": "npm run build",
     "lint": "eslint . --ignore-path .gitignore",
