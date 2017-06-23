@@ -4,5 +4,8 @@ module.exports = {
         "token": process.env.SLACK_TOKEN,
         "channelMapping": {
                 "old-school": "#hackatron"
+        },
+        "ircOptions": {
+                "port": 6697
         }
 }
