@@ -8,5 +8,8 @@ module.exports = {
         "ircOptions": {
                 "debug": true,
                 "showErrors": true
-        }
+        },
+        "autoSendCommands": [
+                ["PRIVMSG", "NickServ", "IDENTIFY " + process.env.IRC_PASSWORD]
+        ]
 }
