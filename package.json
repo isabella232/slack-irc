@@ -24,7 +24,7 @@
   "scripts": {
     "start": "node dist/index.js",
     "build": "babel lib --out-dir dist",
-    "postinstall": "npm install && npm run build",
+    "postinstall": "npm run build",
     "prepublish": "npm run build",
     "lint": "eslint . --ignore-path .gitignore",
     "mocha": "mocha --compilers js:babel-core/register $(find test -name '*.test.js')",
