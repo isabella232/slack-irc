@@ -9,7 +9,6 @@ module.exports = {
                 "debug": true,
                 "showErrors": true,
                 "sasl": true,
-                "nick": "hackatron-bridge",
                 "userName": "hackatron-bridge",
                 "password": process.env.IRC_PASSWORD
         }
