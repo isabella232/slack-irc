@@ -1,6 +1,6 @@
 module.exports = {
         "nickname": "hackatron-bridge",
-        "server": "chat.freenode.net:6697",
+        "server": "chat.freenode.net",
         "token": process.env.SLACK_TOKEN,
         "channelMapping": {
                 "old-school": "#hackatron"
