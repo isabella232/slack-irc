@@ -6,7 +6,7 @@ module.exports = {
                 "old-school": "#hackatron"
         },
         "ircOptions": {
-                "debug": false,
-                "showErrors": false
+                "debug": true,
+                "showErrors": true
         }
 }
