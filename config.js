@@ -1,11 +1,8 @@
 module.exports = {
         "nickname": "hackatron-bridge",
-        "server": "chat.freenode.net",
+        "server": "irc.freenode.net",
         "token": process.env.SLACK_TOKEN,
         "channelMapping": {
                 "old-school": "#hackatron"
-        },
-        "ircOptions": {
-                "port": 6697
         }
 }
