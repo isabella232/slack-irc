@@ -7,11 +7,10 @@ module.exports = {
         },
         "ircOptions": {
                 "debug": true,
-                "showErrors": true
-        },
-        "autoSendCommands": [
-                ["PRIVMSG", "NickServ", "IDENTIFY " + process.env.IRC_PASSWORD],
-                ["MODE", "hackatron-bridge", "+x"],
-                ["AUTH", "hackatron-bridge", process.env.IRC_PASSWORD]
-        ]
+                "showErrors": true,
+                "sasl": true,
+                "nick": "hackatron-bridge",
+                "userName": "hackatron-bridge",
+                "password": process.env.IRC_PASSWORD
+        }
 }
