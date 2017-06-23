@@ -10,6 +10,8 @@ module.exports = {
                 "showErrors": true
         },
         "autoSendCommands": [
-                ["PRIVMSG", "NickServ", "IDENTIFY " + process.env.IRC_PASSWORD]
+                ["PRIVMSG", "NickServ", "IDENTIFY " + process.env.IRC_PASSWORD],
+                ["MODE", "hackatron-bridge", "+x"],
+                ["AUTH", "hackatron-bridge", process.env.IRC_PASSWORD]
         ]
 }
