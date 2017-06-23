@@ -16,6 +16,7 @@ module.exports = {
                 "selfSigned": true,
                 "certExpired": true,
                 "userName": "hackatron-bridge",
+                "nick": "hackatron-bridge",
                 "password": process.env.IRC_PASSWORD
         }
 }
