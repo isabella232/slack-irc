@@ -103,7 +103,12 @@ Valid JSON cannot contain comments, so remember to remove them first!
     "muteUsers": {
       "irc": ["irc-user"],
       "slack": ["slack-user"]
-    }
+    },
+    // Prevent messages containing this string from being forwarded:
+    "muteWords": [
+      "spammy",
+      "words"
+    ],
   }
 ]
 ```
