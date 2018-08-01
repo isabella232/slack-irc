@@ -28,5 +28,4 @@ node_modules
 .environment
 /*.json
 
-dist/
 .nyc_output/
